@@ -27,6 +27,9 @@ img{
     text-decoration: none;
     color: black;
     height: auto;
+    font-style:unset;
+    cursor: pointer;
+    
 }
 .header a:hover{
     background-color: #00794c;
@@ -55,7 +58,7 @@ img{
 }
  .container{
     position: absolute;
-    display: block;
+    display: flex;
 }
 .html{
     background-color: #E7E9EB;
@@ -64,7 +67,7 @@ img{
     float: right;
     margin: 70px  40px;
     border-radius: 7px;
-   position: relative;
+    position: relative;
     
 }
  .text{
@@ -100,7 +103,7 @@ img{
     max-width: 700px;
 }
 
-.html a{
+ .html a{
   width: 200px;
   background-color:#04AA6D;
   color: white;
@@ -112,7 +115,7 @@ img{
 .html a:hover{
     background-color:#00794c;
     transition: background-color 0.3s ease-in-out;
-}
+} 
 
 .css-section{
     width: 100%;
@@ -131,15 +134,88 @@ img{
     background-color: #d8dbdd;
     
 }
+.javascript a{
+    width: 200px;
+    background-color:#04AA6D;
+    color: white;
+    text-align: center;
+    margin: 15px 10px;
+    font-size: 20px;
+  }
+  
+
+.javascript a:hover{
+    background-color:#00794c;
+    transition: background-color 0.3s ease-in-out;
+}
 .javascript-section{
     width: 100%;
-    background-color: #FFF4A3;
+    background-color:  rgb(255, 244, 163) ;
     position: relative;
     height: 90vh;
     margin-top: 0px;
 }
 .javascript-section .text{
-    padding: 20px 100px;
+    padding: 20px 90px;
     color: rgb(27, 10, 10);
 }
+.javascript{
+    background-color: #E7E9EB;
+    max-height: 500px;
+    width: 600px;
+    float: right;
+    margin: 70px  40px;
+    border-radius: 7px;
+    
+}
+.python-section .text{
+    padding: 20px 160px;
+    color: #E7E9EB
+}
 
+.python-section{
+    width: 100%;
+    background-color: #282A35;
+    position: relative;
+    height: 90vh;
+    margin-top: 0px;
+}
+
+.python{
+    background-color: #E7E9EB;
+    max-height: 500px;
+    width: 600px;
+    float: right;
+    margin: 70px  0px;
+    padding: 10px 5px;
+    border-radius: 7px;   
+   
+}
+.python a{
+    width: 200px;
+    background-color:#04AA6D;
+    color: white;
+    text-align: center;
+    margin: 15px 10px;
+    font-size: 20px;
+  }
+  
+
+.python a:hover{
+    background-color:#00794c;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.orange-a{
+    width: 200px;
+    background-color:#04AA6D;
+    color: white;
+    text-align: center;
+    margin: 15px 10px;
+    font-size: 20px;
+}
+
+.orange-a:hover{
+    background-color:#00794c;
+    transition: background-color 0.3s ease-in-out;
+}
