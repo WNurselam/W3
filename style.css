@@ -1,0 +1,144 @@
+*{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+img{
+    width: 60px;
+    height: 50px;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 0px 30px; 
+    height: 70px;
+    align-items: center;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+    height: auto;
+}
+.header a:hover{
+    background-color: #00794c;
+   
+}
+.header:last-child{
+    padding-right: 60px;
+}
+
+.header .exercise{
+     padding-right: 100px;
+}
+
+.header .circle{
+    padding-left: 100px;
+}
+
+
+
+.html-section{
+    position: relative;
+    height: 90vh;
+    width: 100%;
+   
+    background-color: #282A35;
+}
+ .container{
+    position: absolute;
+    display: block;
+}
+.html{
+    background-color: #E7E9EB;
+    max-height: 500px;
+    width: 600px;
+    float: right;
+    margin: 70px  40px;
+    border-radius: 7px;
+   position: relative;
+    
+}
+ .text{
+    float: left;
+    padding: 20px 200px;
+    text-align: center;
+    color: white;
+    margin-top: 45px;
+}
+
+ h1{
+   font-size: 90px;
+   letter-spacing: 3px;
+   margin-bottom: 30px;
+   
+}
+ .sections a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 12px;
+    padding: 10px;
+    border-radius: 25px;
+    border:none;
+    width: 200px;
+    font-size: 20px;
+}
+
+.code{
+    background-color: white;
+    height: 280px;
+    margin: 15px;
+    border-left: 5px solid #04AA6D;
+    max-width: 700px;
+}
+
+.html a{
+  width: 200px;
+  background-color:#04AA6D;
+  color: white;
+  text-align: center;
+  margin: 15px 10px;
+  font-size: 20px;
+}
+
+.html a:hover{
+    background-color:#00794c;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.css-section{
+    width: 100%;
+    background-color: #D9EEE1;
+    position: relative;
+    height: 90vh;
+    margin-top: 0px;
+}
+
+.css-section .text{
+    color: black;
+    
+}
+
+.css-section .html{
+    background-color: #d8dbdd;
+    
+}
+.javascript-section{
+    width: 100%;
+    background-color: #FFF4A3;
+    position: relative;
+    height: 90vh;
+    margin-top: 0px;
+}
+.javascript-section .text{
+    padding: 20px 100px;
+    color: rgb(27, 10, 10);
+}
