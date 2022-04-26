@@ -1,1 +1,3 @@
-W3SCHOOL DESİGN
+W3SCHOOL HOMEPAGE DESİGN
+
+![deatil](details.png)
